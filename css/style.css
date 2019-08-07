@@ -38,8 +38,9 @@ font-size: 13px;
 font-family: 'SF Pro Text';
 text-transform: capitalize;
 letter-spacing: normal;
-line-height: 2.8em;
+line-height: 3em;
 padding-left: 5%;
+padding-top: 2%;
 
 }
 
@@ -118,6 +119,12 @@ h2 {
 
 [class^="fa fa-chevron-right fa-2x"] {
   position: relative;
-  bottom: 6px;
+  bottom: 5px;
   padding-right: 5%;
+}
+
+
+.service{
+  line-height: 3em;
+  padding-left: 5%;
 }
