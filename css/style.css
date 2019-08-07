@@ -66,6 +66,29 @@ h2 {
   background-position: bottom;
 }
 
+.bus-info {
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 5%;
+  padding-left: 5%;
+  color: #000000;
+}
+
+.destination {
+  padding-left: 27%;
+}
+
+.time{
+  font-size: 16px;
+  color:#00CFB3;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 21%;
+}
+
+
+
+
 
 .container {
     background-color: #F8F8F8;
@@ -87,7 +110,7 @@ h2 {
 
 [class^="fa fa-chevron-right fa-2x"] {
   position: relative;
-  bottom: 15px;
+  bottom: 6px;
   padding-right: 5%;
 }
 
