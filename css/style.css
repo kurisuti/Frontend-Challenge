@@ -16,6 +16,21 @@ body {
 
 }
 
+.nav {
+  background-color: #383838;
+  color: #FFFFFF;
+  font-family: 'Unica One', Arial, sans-serif;
+  font-size: 2em;
+  padding-top:13%;
+  text-align: center;
+  height: 215px;
+  width: 100%;
+  background-image: url("../images/StatusBar-White.png");
+  background-repeat: no-repeat;
+
+}
+
+
 h1 {
 font-weight:normal;
 color: #000000;
@@ -38,6 +53,7 @@ h2 {
 
 }
 
+
 .block {
   display:block;
   padding: 3%;
@@ -49,29 +65,26 @@ h2 {
   color: #FFFFFF;
   word-spacing: 60px;
   padding-left: 5%;
+  position: relative;
 }
 
-.nav {
-  background-color: #383838;
-  color: #FFFFFF;
-  font-family: 'Unica One', Arial, sans-serif;
-  height: 410px;
-  font-size: 1.5em;
-  padding-top:10%;
-  text-align: center;
-  width: 100%;
+
+.map-image{
   background-image: url("../images/Map.png");
   background-repeat: no-repeat;
-  background-size: 375px auto;
-  background-position: bottom;
+  background-size: 375px;
+  height: 300px;
+  bottom: 100px;
+  position: relative;
 }
 
 .bus-info {
   font-size: 16px;
   font-weight: bold;
-  padding-top: 5%;
+  padding-top: 10%;
   padding-left: 5%;
   color: #000000;
+  bottom: 40px;
 }
 
 .destination {
@@ -86,15 +99,10 @@ h2 {
   padding-right: 21%;
 }
 
-
-
-
-
-.container {
-    background-color: #F8F8F8;
-    width: 375px
-
-  }
+.container{
+  width: 100%;
+  height: 500px;
+}
 
 
 .bus-line {
@@ -112,8 +120,4 @@ h2 {
   position: relative;
   bottom: 6px;
   padding-right: 5%;
-}
-
-  }
-
 }
