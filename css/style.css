@@ -25,7 +25,7 @@ body {
   background-size: auto;
   background-repeat: no-repeat;
   margin-left: 14%;
-  top: 17%;
+  top: 13%;
   }
 
   .box1, .box2 {
@@ -38,7 +38,7 @@ body {
   .search-container {
     background-color: #383838;
     width: 100%;
-    height: 230px;
+    height: 180px;
     background-image: url("../images/StatusBar-White.png");
     background-repeat: no-repeat;
   }
@@ -58,8 +58,8 @@ body {
 
 .search-bars {
   padding-left: 20%;
-  padding-top: 13%;
-  height: 230px;
+  padding-top: 6%;
+  height: 180px;
 }
 
 h5{
@@ -114,6 +114,14 @@ h4 {
   color: #00CFB3;
 }
 
+h4 {
+  font-weight: bold;
+  font-size:16px;
+  padding-left: 5%;
+  line-height: 2.5EM;
+  color: #686868;
+}
+
 .frequency{
   padding-left:65%;
   position:relative;
@@ -131,17 +139,35 @@ h4 {
 }
 
 
-.block {
-  display:block;
-  padding: 3%;
+.inactive {
+  border: 1px solid #DADADA;
+  position:relative;
+  background-color: #BBBBBB;
+  height: 72px;
   width: 100%;
-  font-size: 10px;
-  font-weight:normal;
-  text-transform: uppercase;
-  background-color: #676767;
-  color: #FFFFFF;
+  padding:0;
+}
+
+.bus-line-inactive{
+  color:#686868;
+  font-weight: bold;
   padding-left: 5%;
-  position: relative;
+  padding-top: 8%;
+  font-size: 20px;
+}
+
+.frequency-inactive {
+  color:#686868;
+  padding-left:65%;
+  position:relative;
+  bottom: 50px;
+}
+
+.map-image {
+  background-image: url("../images/Map.png");
+  height: 253px;
+  background-repeat: no-repeat;
+  width:100%;
 }
 
 .bus-container{
@@ -152,11 +178,23 @@ h4 {
 .arrow {
   text-align: right;
   font-size: .8em;
-
 }
 
 [class^="fa fa-chevron-right fa-2x"] {
   position: relative;
   bottom: 80px;
   padding-right: 5%;
+}
+
+.bus {
+  text-align: left;
+  font-size: 3em;
+  color:white;
+  width: 100%;
+}
+
+[class^="fas fa-bus-alt"] {
+  position: relative;
+  bottom: 80px;
+  padding:10%;
 }
