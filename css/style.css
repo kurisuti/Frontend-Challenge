@@ -19,72 +19,52 @@ body {
 .vertical   {
   background-color: #383838;
   width: 20px;
-  height: 70px;
+  height: 80px;
   position: absolute;
   background-image:url("../images/location-picker.png");
-  background-size: auto;
   background-repeat: no-repeat;
-  margin-left: 14%;
-  top: 13%;
+  top:95px;
+  margin-left: 55px;
+
+  }
+
+h2 {
+    font-size: 13px;
+    padding-left: 5%;
+    padding-top: 7%;
   }
 
   .box1, .box2 {
     border: solid 10px #383838;
     background-color: #ffffff;
-    width: 80%;
-    height: 100px;
+    width: 85%;
+    height: 50px;
+
   }
 
   .search-container {
     background-color: #383838;
     width: 100%;
-    height: 180px;
+    height: 220px;
     background-image: url("../images/StatusBar-White.png");
     background-repeat: no-repeat;
+    padding-left: 80px;
   }
+
 
 .nav {
   color: #ffffff;
   font-family: 'Unica One', Arial, sans-serif;
   font-size: 2em;
   text-align: center;
-  padding-top: 12%;
-}
-
- .location-picker{
-  background-image: url("../images/location-picker.png");
-  display: inline;
-}
-
-.search-bars {
-  padding-left: 20%;
-  padding-top: 6%;
-  height: 180px;
-}
-
-h5{
-  padding: 7%;
-
-}
-
-.box1, .box2 {
-  border: solid 10px #383838;
-  background-color: #ffffff;
-  width: 80%;
-  height: 50px;
-}
-
-.bus-line{
-  font-weight: bold;
-  padding-left: 5%;
-  padding-top: 8%;
-  font-size: 20px;
+  padding-top: 15%;
+  padding-right: 50px;
 }
 
 h1 {
 font-weight:normal;
 color: #000000;
-font-size: 14px;
+font-size: 13px;
 font-weight: normal;
 font-family: 'SF Pro Text';
 letter-spacing: normal;
@@ -92,20 +72,11 @@ padding-left: 23%;
 
 }
 
-h2 {
-  font-size: 13px;
-  padding-left: 5%;
-  padding-top: 7%;
+p{
+  padding-left:23%;
+  line-height: 2.8em;
 }
 
-h3 {
-  font-weight:normal;
-  color: #000000;
-  font-size: 11px;
-  letter-spacing: normal;
-  padding-left: 23%;
-  line-height: 3.5em;
-}
 
 h4 {
   font-weight: bold;
@@ -135,22 +106,82 @@ h5 {
 
 }
 
-
-.frequency{
-  padding-left:65%;
+.map-image {
+  background-image: url("../images/Map.png");
+  height: 230px;
+  background-repeat: no-repeat;
+  width:100%;
   position:relative;
-  bottom: 50px;
+  bottom:25px;
+}
+
+h6{
+  color:white;
+  font-size: 1em;
+  text-align: left;
 }
 
 
-.location {
+
+.inline-container{
+  top:6px;
+  margin-left:3.4%;
+  margin-right:5%;
+  display:inline;
+  position:relative;
+  word-spacing: 30px;
+
+}
+
+inline-tab{
+  width:375px;
+  float:left;
+  height:35px;
+  width:100%;
+  position: relative;
+  bottom:25px;
+  background-color:#676767;
+
+
+}
+
+.move {
+  right:7%;
+  position:relative;
+}
+
+
+.active {
   border: 1px solid #DADADA;
   position:relative;
-  background-color: white;
+  background-color: #ffffff;
   height: 72px;
   width: 100%;
-  padding:0;
+  padding-top: 10%;
 }
+
+.bus-line{
+  color:#000000;
+  font-weight: bold;
+  padding-left: 5%;
+  font-size: 20px;
+}
+
+.destination{
+    height: 72px;
+    position:relative;
+    padding-top: 30px;
+    bottom: 40px;
+  }
+
+
+.frequency{
+  color:#686868;
+  padding-left:63%;
+  position:relative;
+  bottom: 90px;
+}
+
 
 /** inactive lines**/
 
@@ -160,57 +191,58 @@ h5 {
   background-color: #BBBBBB;
   height: 72px;
   width: 100%;
-  padding:0;
+  padding-top: 10%;
 }
 
-.bus-line-inactive{
+.bus-line-inactive {
   color:#686868;
   font-weight: bold;
   padding-left: 5%;
-  padding-top: 8%;
   font-size: 20px;
 }
 
+.destination-inactive {
+  height: 72px;
+  position:relative;
+  padding-top: 30px;
+  bottom: 40px;
+}
+
+
 .frequency-inactive {
   color:#686868;
-  padding-left:65%;
+  padding-left:63%;
   position:relative;
-  bottom: 55px;
+  bottom: 90px;
 }
 
-.map-image {
-  background-image: url("../images/Map.png");
-  height: 253px;
-  background-repeat: no-repeat;
-  width:100%;
-}
 
-.bus-container{
-  background-color: #F2F2F2;
-  height: 650px;
-}
+/**fontawesome icons**/
 
 .arrow {
   text-align: right;
   font-size: .8em;
+  line-height: 5em;
+  padding: 10px;
+
 }
 
 [class^="fa fa-chevron-right fa-2x"] {
   position: relative;
-  bottom: 80px;
+  bottom:145px;
   padding-right: 5%;
 }
 
-.header .nav .bus {
-  text-align: left;
-  font-size: 3em;
-  color:white;
-  width: 100%;
-  padding-left: 20px;
+.bus{
+  font-size: 1.3em;
+  padding-bottom: 10px;
 }
 
-[class^="fal fa-smile"] {
+[class^="fas fa-bus"] {
   position: relative;
-  padding:10%;
+  color:white;
+  font-size: 1.5em;
+  bottom: 12px;
+  padding-left: 43px;
 
 }

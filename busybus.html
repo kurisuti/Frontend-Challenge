@@ -6,22 +6,23 @@
     <title>css exercise four</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://use.fontawesome.com/37471687aa.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/solid.css" integrity="sha384-VUnOJnDrNS0aVOhF6puq5SPJOP5oOvIO6n54m14E2/OHv6DU1gklJ4EImoD382c5" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/regular.css" integrity="sha384-gr19od0wAxe2+mYHEXvS7Y1ppn+ESoAQzTYGPauVJYyAYYl0NBQaKveeQnzez2Rm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/brands.css" integrity="sha384-+B+cmd37r9agFUqHw5ABups/+o97SqA/Y6S5b3ly2q0ABacloQs0HZOQAX1NpJhF" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/fontawesome.css" integrity="sha384-jUGOH+gYMCfz2jbO6DW8vojES/a323h7dcoT6qI7Bvod9mew/wwTZryjccmaMOkf" crossorigin="anonymous">
   </head>
 
   <body>
     <section class="container">
+        <div class="vertical"></div>
+          <div class= "search-container">
 
-        <div class= "search-container">
-
-            <span class="header">
               <div class="nav">BUSYBUS</div>
-              <div class="bus">
-                <i class="fal fa-smile"></i>
-              </div>
-            </span>
 
-              <div class="vertical"></div>
+
+              <div class="bus">
+                <i class="fas fa-bus"></i>
+              </div>
 
               <div class="search-bars">
                   <div class="box1">
@@ -29,78 +30,86 @@
                   </div>
               <div class="box2">
                     <h2>Washington & State</h2>
-              </div>
-                <div class="location-picker">
                 </div>
-            </div>
+              </div>
+
+          </div>
       </section>
 
             <div class="map-image"></div>
 
 
-    <section class="bus-container"
+    <inline-tab>
+      <div class="inline-container">
+              <h6 class="inline-container">Line</h6>
+              <h6 class="inline-container"><span class="move">Destination</span></h6>
+              <h6 class="inline-container">Frequency</h6>
+        </div>
+    </inline-tab>
+
+<section class="bus-container"
       <content>
-        <div class="location">
+        <div class="active">
           <div class="bus-line">60</div>
           <div class="destination">
             <h1>Randolph/Harbor Dr</h1>
-            <h3>Eastbound</h3>
+            <p>Eastbound</p>
           </div>
           <div class="frequency">
-          <h4>20 min</h4>
-          </div>
+            <h4><span class="small-font">Every</span>10 min</h4>
+            </div>
           <div class="arrow">
             <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
           </div>
         </div>
 
-        <div class="location">
+        <div class="active">
           <div class="bus-line">124</div>
           <div class="destination">
             <h1>Navy Pier</h1>
-            <h3>Eastbound</h3>
+            <p>Eastbound</p>
           </div>
           <div class="frequency">
-          <h4>10 min</h4>
-          </div>
+            <h4><span class="small-font">Every</span>10 min</h4>
+            </div>
           <div class="arrow">
             <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
           </div>
         </div>
 
-        <div class="location">
+        <div class="active">
           <div class="bus-line">151</div>
           <div class="destination">
             <h1>Devon/Clark</h1>
-            <h3>Northbound</h3>
+            <p>Northbound</p>
           </div>
           <div class="frequency">
-          <h4>16 min</h4>
-          </div>
+            <h4><span class="small-font">Every</span>16 min</h4>
+            </div>
           <div class="arrow">
             <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
           </div>
         </div>
 
-        <div class="location">
+        <div class="active">
           <div class="bus-line">J14</div>
           <div class="destination">
             <h1>103rd/Story Island</h1>
-            <h3>Southbound</h3>
+            <p>Southbound</p>
           </div>
           <div class="frequency">
-          <h4>15 min</h4>
+            <h4><span class="small-font">Every</span>15 min</h4>
           </div>
           <div class="arrow">
             <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
           </div>
         </div>
 
-        <div class="location">
+        <div class="active">
           <div class="bus-line">124</div>
           <div class="destination">
             <h1>Navy Pier</h1>
-            <h3>Southbound</h3>
+            <p>Southbound</p>
           </div>
           <div class="frequency">
           <h4><span class="small-font">Every</span>10 min</h4>
@@ -110,14 +119,14 @@
           </div>
         </div>
 
-        <div class="location">
+        <div class="active">
           <div class="bus-line">6x</div>
           <div class="destination">
             <h1>Jackson Park Express</h1>
-            <h3>Reroute</h3>
+            <p>Reroute</p>
           </div>
           <div class="frequency">
-          <h4>N/A</h4>
+          <h4><span style="color:#686868">N/A</span></h4>
           </div>
           <div class="arrow">
             <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
@@ -132,7 +141,7 @@
             <div class="bus-line-inactive">4</div>
             <div class="destination-inactive">
               <h1>Cottage Grove</h1>
-              <h3>Out of Service</h3>
+              <p>Out of Service</p>
             </div>
             <div class="frequency-inactive">
             <h5><span class="small-font">Arriving at</span>12:10am</h5>
@@ -146,7 +155,7 @@
             <div class="bus-line-inactive">20</div>
             <div class="destination-inactive">
               <h1>Madison</h1>
-              <h3>Out of Service</h3>
+              <p>Out of Service</p>
             </div>
             <div class="frequency-inactive">
             <h5><span class="small-font">Arriving at</span>12:10am</h5>
@@ -160,7 +169,7 @@
             <div class="bus-line-inactive">157</div>
             <div class="destination-inactive">
               <h1>Streeterville/Taylor</h1>
-              <h3>Out of Service</h3>
+              <p>Out of Service</p>
             </div>
             <div class="frequency-inactive">
             <h5><span class="small-font">Arriving at</span>6:00am</h5>
