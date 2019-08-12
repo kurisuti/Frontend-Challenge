@@ -114,7 +114,7 @@ h6{
 
 }
 
-inline-tab{
+.inline-tab{
   width:375px;
   float:left;
   height:35px;
@@ -130,6 +130,12 @@ inline-tab{
   right:7%;
   position:relative;
 }
+
+
+  .bus-schedule{
+    height: 667px;
+  }
+
 
 
 .active {
