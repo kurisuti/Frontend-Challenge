@@ -26,12 +26,10 @@
             </div>
 
             <div class="search-bars">
-              <div class="box1">
-                    <h2>Your Location</h2>
-              </div>
-              <div class="box2">
-                    <h2>Washington & State</h2>
-              </div>
+              <form action="/action_page.php">
+                  <input type="text" name="FirstName" value="Your Location"><br>
+                  <input type="text" name="LastName" value="Washington and State"><br>
+              </form>
             </div>
         </div>
   </nav>
@@ -42,6 +40,7 @@
       <div class="inline-container">
             <h6 class="inline-container">Line</h6>
             <h6 class="inline-container"><span class="move">Destination</span></h6>
+            <h6 class="inline-container">ETA</h6>
             <h6 class="inline-container">Frequency</h6>
       </div>
   </section>
@@ -55,6 +54,7 @@
             <h1>Randolph/Harbor Dr</h1>
             <p>Eastbound</p>
             </div>
+
           <div class="frequency">
             <h4><span class="small-font">Every</span>10 min</h4>
         </div>
@@ -84,6 +84,9 @@
             <div class="destination">
                 <h1>Devon/Clark</h1>
                 <p>Northbound</p>
+            </div>
+            <div class="eta">
+                <h2>9:51am</h2>
             </div>
             <div class="frequency">
                 <h4><span class="small-font">Every</span>16 min</h4>
@@ -146,7 +149,7 @@
                   <p>Out of Service</p>
               </div>
               <div class="frequency-inactive">
-                  <h5><span class="small-font">Arriving at</span>12:10am</h5>
+                  <h5>N/A</h5>
               </div>
                 <div class="arrow">
                   <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
@@ -161,7 +164,7 @@
                   <p>Out of Service</p>
                 </div>
                 <div class="frequency-inactive">
-                  <h5><span class="small-font">Arriving at</span>12:10am</h5>
+                  <h5>N/A</h5>
                 </div>
                 <div class="arrow">
                   <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
@@ -176,7 +179,7 @@
                   <p>Out of Service</p>
                 </div>
                 <div class="frequency-inactive">
-                  <h5><span class="small-font">Arriving at</span>6:00am</h5>
+                    <h5>N/A</h5>
                 </div>
                 <div class="arrow">
                   <i class="fa fa-chevron-right fa-2x"></i>
