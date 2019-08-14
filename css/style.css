@@ -13,6 +13,7 @@ body {
   color: #4F4F4F;
   text-align: left;
   font-size: 10px;
+  margin: auto;
 
 }
 
@@ -263,7 +264,7 @@ h6{
         position: absolute;
         background-image:url("../images/Location-x.png");
         background-repeat: no-repeat;
-        top:142px;
+        top:140px;
         margin-left: 320px;
   }
 
@@ -291,7 +292,7 @@ h6{
 
 [class^="fa fa-chevron-right fa-2x"] {
   position: relative;
-  bottom:155px;
+  bottom:150px;
   padding-right: 3%;
 }
 
