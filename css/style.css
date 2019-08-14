@@ -224,12 +224,21 @@ h6{
   bottom: 40px;
 }
 
+.eta-inactive{
+  color:#686868;
+  position:relative;
+  bottom: 96px;
+  margin-left: 48%;
+  margin-right:40%;
+  width: 20%;
+  line-height: .3em;
+}
 
 .frequency-inactive {
   color:#686868;
   padding-left:72%;
   position:relative;
-  bottom: 105px;
+  bottom: 120px;
 }
 
 
