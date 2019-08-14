@@ -35,6 +35,17 @@ body {
     padding-left: 55px;
   }
 
+  label, input {
+      display: block;
+      height: 32px;
+      padding: 10px;
+
+  }
+
+  label {
+      margin-bottom: 12px;
+
+  }
 
 .nav {
   color: #ffffff;
@@ -126,10 +137,12 @@ h6{
 }
 
 .search-bars{
-  margin-top: 15px;
+  margin-top: 1px;
   margin-left: 10px;
+  margin-right: 10%;
 
 }
+
 
 .move {
   right:7%;
@@ -225,7 +238,7 @@ h6{
   position: absolute;
   background-image:url("../images/location-picker.png");
   background-repeat: no-repeat;
-  top:96px;
+  top:94px;
   margin-left: 30px;
 
   }
@@ -237,18 +250,18 @@ h6{
       position: absolute;
       background-image:url("../images/BackArrow.png");
       background-repeat: no-repeat;
-      top:37px;
+      top:39px;
       margin-left: 30px;
   }
 
 .location-x {
-        background-size: 75%;
+        background-size:60%;
         width: 20px;
-        height: 25px;
+        height: 40px;
         position: absolute;
         background-image:url("../images/Location-x.png");
         background-repeat: no-repeat;
-        top:148px;
+        top:142px;
         margin-left: 320px;
   }
 
@@ -290,5 +303,5 @@ h6{
   color:white;
   font-size: 1.5em;
   bottom: 12px;
-  padding-left: 43px;
+  padding-left: 65px;
 }
