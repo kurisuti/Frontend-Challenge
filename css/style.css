@@ -70,18 +70,21 @@ padding-left: 16%;
 
 }
 
-h2 {
-    font-size: 12px;
+
+h3 {
+    font-size: 1.1em;
     font-weight:400;
-    padding-left: 37%;
-    padding-top: 18%;
+    padding-left: 0%;
+    padding-top: 11%;
     color: #000000;
+    line-height: .8em;
   }
 
 
 p{
   padding-left:16%;
   line-height: 2.8em;
+
 }
 
 
@@ -89,15 +92,15 @@ h4 {
   font-weight: bold;
   font-size:14px;
   padding-left: 5%;
-  line-height: 2.8EM;
+  line-height: 2.5EM;
   color: #00CFB3;
   position: relative;;
-  bottom: 10px;
+
 }
 
 h5 {
-  font-weight: bold;
-  font-size:14px;
+  font-weight:600;
+  font-size:13px;
   padding-left: 5%;
   color: #686868;
   line-height: 2.5em;
@@ -181,21 +184,12 @@ h6{
     bottom: 40px;
   }
 
-  .eta{
-    color:#686868;
-    position:relative;
-    bottom: 85px;
-    margin-left: 45%;
-    margin-right:40%;
-    width: 20%;
-  }
-
 
 .frequency{
   color:#686868;
   padding-left:72%;
   position:relative;
-  bottom: 95px;
+  bottom: 90px;
 
 }
 
@@ -228,10 +222,9 @@ h6{
   color:#686868;
   position:relative;
   bottom: 96px;
-  margin-left: 48%;
+  margin-left: 52%;
   margin-right:40%;
   width: 20%;
-  line-height: .3em;
 }
 
 .frequency-inactive {
@@ -293,6 +286,7 @@ h6{
 .arrow {
   text-align: right;
   font-size: .8em;
+  line-height: 1em;
 
 }
 
@@ -300,8 +294,8 @@ h6{
 
 [class^="fa fa-chevron-right fa-2x"] {
   position: relative;
-  bottom:140px;
   padding-right: 3%;
+  bottom: 115px;
 }
 
 .bus{
