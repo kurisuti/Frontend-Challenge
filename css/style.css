@@ -18,6 +18,15 @@ body {
 
   /**nav**/
 
+  .nav {
+    color: #ffffff;
+    font-family: 'Unica One', Arial, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 15%;
+    padding-right: 50px;
+  }
+
   .box1, .box2 {
     border: solid 10px #383838;
     background-color: #ffffff;
@@ -42,7 +51,6 @@ body {
 
   }
 
-
   .move {
     right:7%;
     position:relative;
@@ -57,17 +65,7 @@ body {
 
   label {
       margin-bottom: 12px;
-
   }
-
-.nav {
-  color: #ffffff;
-  font-family: 'Unica One', Arial, sans-serif;
-  font-size: 2em;
-  text-align: center;
-  padding-top: 15%;
-  padding-right: 50px;
-}
 
 /**active buslines**/
 
@@ -257,6 +255,7 @@ h7 {
 }
 
 /**images**/
+
 .vertical   {
   background-color: #383838;
   width: 20px;
@@ -287,7 +286,7 @@ h7 {
         position: absolute;
         background-image:url("../images/Location-x.png");
         background-repeat: no-repeat;
-        top:140px;
+        top:143px;
         margin-left: 320px;
   }
 
@@ -305,18 +304,18 @@ h7 {
 
 /**fontawesome icons**/
 
+
 .arrow {
-  font-size: 1em;
-  width:5%;
-  position: relative;
-  left: 94%;
-  bottom:180px;
-  padding-top: 14%;
+  text-align: right;
+  margin: 0 auto;
 
 }
 
-
 [class^="fa fa-chevron-right fa-2x"] {
+  position: relative;
+  bottom: 130px;
+  padding-right: 8px;
+  padding-top:5px;
 }
 
 .bus{
